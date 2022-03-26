@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="24546" started-at="2022-03-26T10:03:57Z" finished-at="2022-03-26T10:04:21Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="24546" started-at="2022-03-26T10:03:57Z" finished-at="2022-03-26T10:04:21Z">
+      <class name="com.cicd.demoproject.TestClass1">
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.cicd.demoproject.TestClass1@34b7bfc0]" name="launchDriver" is-config="true" duration-ms="5832" started-at="2022-03-26T15:33:57Z" finished-at="2022-03-26T15:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.cicd.demoproject.TestClass1@34b7bfc0]" name="Test1" duration-ms="6984" started-at="2022-03-26T15:34:02Z" finished-at="2022-03-26T15:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.cicd.demoproject.TestClass1@34b7bfc0]" name="quit" is-config="true" duration-ms="791" started-at="2022-03-26T15:34:09Z" finished-at="2022-03-26T15:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.cicd.demoproject.TestClass1@34b7bfc0]" name="launchDriver" is-config="true" duration-ms="1868" started-at="2022-03-26T15:34:10Z" finished-at="2022-03-26T15:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.cicd.demoproject.TestClass1@34b7bfc0]" name="Test2" duration-ms="3001" started-at="2022-03-26T15:34:12Z" finished-at="2022-03-26T15:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.cicd.demoproject.TestClass1@34b7bfc0]" name="quit" is-config="true" duration-ms="759" started-at="2022-03-26T15:34:15Z" finished-at="2022-03-26T15:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.cicd.demoproject.TestClass1@34b7bfc0]" name="launchDriver" is-config="true" duration-ms="1615" started-at="2022-03-26T15:34:16Z" finished-at="2022-03-26T15:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:com.cicd.demoproject.TestClass1@34b7bfc0]" name="Test3" duration-ms="2927" started-at="2022-03-26T15:34:17Z" finished-at="2022-03-26T15:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.cicd.demoproject.TestClass1@34b7bfc0]" name="quit" is-config="true" duration-ms="749" started-at="2022-03-26T15:34:20Z" finished-at="2022-03-26T15:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.cicd.demoproject.TestClass1 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
