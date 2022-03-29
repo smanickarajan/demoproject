@@ -1,9 +1,14 @@
 package com.cicd.demoproject;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -13,10 +18,14 @@ public class TestClass1 {
 	public static WebDriver driver;
 
 	@BeforeMethod
-	public void launchDriver() {
+	public void launchDriver() throws MalformedURLException {
 		System.out.println("Started");
+		DesiredCapabilities dr=DesiredCapabilities.chrome();
+		dr.setBrowserName("chrome");
+		dr.setPlatform(Platform.WINDOWS);
+		
 		System.setProperty("webdriver.chrome.driver", "F:\\softwares\\chromedriver.exe");
-		driver = new ChromeDriver();
+		driver = new RemoteWebDriver(new URL("http://192.168.225.81:4444/wd/hub"), dr);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		//System.out.println("Maximized");
